@@ -2,31 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Columns {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between
 }
 
-.App-link {
-  color: #61dafb;
+.Column {
+  min-height: 400px;
+  width: 200px;
+  border: 1px solid black
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Todo {
+  border: 1px solid red
+  
+}
+.TodoForm {
+  border: 1px solid green
+  
 }
